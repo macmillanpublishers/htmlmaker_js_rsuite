@@ -40,9 +40,36 @@ _class: none_
 
 This group determines the elements or classes that mark the start of a new section, as well as the type of section that will be added. When the specified element is encountered, a new parent will be added based on the section type specified, and this parent will wrap around all subsequent children until another "toplevelheads" element is encountered (of any type).
 
+Every element in this group *must* include a child item of "type", which determines the type of parent section that will be added, and may also include the optional child items of "class" and "label", to add an extra class and title attribute to the generated parent section.
+
 #### Sample 1
 
 _JSON:_
+
+```
+"toplevelheads": {
+    ".Section-Titlepagesti": [
+        {"type": "titlepage",
+        "label": "Title Page"}
+    ],
+    ".Section-Copyrightscr": [
+        {"type": "copyright-page",
+        "label": "Copyright Page"}
+    ],
+    ".Section-Dedicationsde": [
+        {"type": "dedication",
+        "label": "Dedication"}
+    ],
+    ".Section-Prefacespf": [
+        {"type": "preface"}
+    ],
+    ".Section-Partspt": [
+        {"type": "part"}
+    ],
+    ".Section-Chapterscp": [
+        {"type": "chapter"}
+    ]
+```
 
 _Input HTML:_
 
@@ -59,10 +86,10 @@ _Input HTML:_
 _Output HTML:_
 
 ```html
-<section data-type="titlepage">
+<section data-type="titlepage" title="Title Page">
 <p class="TitlepageBookTitletit">Alice in Wonderland</p>
 </section>
-<section data-type="dedication">
+<section data-type="dedication" title="Dedication">
 <p class="Dedicationded">For Alice.</p>
 </section>
 <section data-type="chapter">
