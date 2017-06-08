@@ -298,5 +298,8 @@
   },
   "footnotetextselector": [
     "div.footnote"
+  ],
+  "endnotetextselector": [
+    "div.endnotetext"
   ]
 }
