@@ -156,10 +156,15 @@
   ],
   "unorderedlistparas": [
     ".AppendixListBulletapbl",
+    ".AppendixListUnnumapul",
     ".BoxListBulletbbl",
+    ".BoxListUnnumbul",
+    ".Checklistck",
     ".Extract-BulletListextbl",
     ".ListBulletbl",
-    ".SidebarListBulletsbbl"
+    ".ListUnnumul",
+    ".SidebarListBulletsbbl",
+    ".SidebarListUnnumsbul"
   ],
   "orderedlistparas": [
     ".AppendixListNumapnl",
@@ -170,7 +175,9 @@
     ".SidebarListNumsbnl"
   ],
   "unorderedsublistparas": [
-    ".ListBulletSubentrybsl"
+    ".ChecklistSubentrycksl",
+    ".ListBulletSubentrybsl",
+    ".ListUnnumSubentryusl"
   ],
   "orderedsublistparas": [
     ".ListAlphaSubentryasl",
