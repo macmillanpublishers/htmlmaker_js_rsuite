@@ -560,10 +560,10 @@ When running the full conversion from .docx to HTMLBook, footnotes that are embe
 </div>
 ```
 
-* Footnote references (the marker denoting the location in the text to which the footnote corresponds) must be tagged as a span with an id of "footnote-' \+ the note number. E.g.:
+* Footnote references (the marker denoting the location in the text to which the footnote corresponds) must be tagged as a span with an id of "footnote_' \+ the note number. E.g.:
 
 ```html
-<p class="TextStandardtx">Macmillan Publishers is currently located in the Flatiron Building.<span id="footnote-1">1</span></p>
+<p class="TextStandardtx">Macmillan Publishers is currently located in the Flatiron Building.<span id="footnote_1">1</span></p>
 ```
 
 #### Sample 1
