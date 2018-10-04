@@ -1,6 +1,7 @@
 {
 	"title": {
-		"doc-style": "TitlepageBookTitletit"
+		"titlepage-style": "Section-TitlepageSTI",
+    "title-style": "TitleTtl"
 	},
 	"tags" : [
 		{
