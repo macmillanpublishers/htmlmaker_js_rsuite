@@ -1,312 +1,282 @@
 {
   "partheads": [
-    ".Section-Partspt"
+    ".Section-PartSPT"
   ],
   "headingparas": [
-    ".AboutAuthorTextHeadatah",
-    ".AdCardMainHeadacmh",
-    ".AppendixHeadaph",
-    ".BMHeadbmh",
-    ".BMHeadALTabmh",
-    ".BMHeadNonprintingbmhnp",
-    ".BOBAdTitlebobt",
-    ".ChapNumbercn",
-    ".ChapTitlect",
-    ".ChapTitleALTact",
-    ".ChapTitleNonprintingctnp",
-    ".FMHeadfmh",
-    ".FMHeadALTafmh",
-    ".FMHeadNonprintingfmhnp",
-    ".FrontSalesTitlefst",
-    ".HalftitleBookTitlehtit",
-    ".PartNumberpn",
-    ".PartTitlept",
-    ".TitlepageBookTitletit",
-    ".VolumeNumbervoln",
-    ".VolumeTitlevolt"
+    ".NumberNum",
+    ".TitleTtl",
+    ".Main-HeadMHead"
   ],
   "extractparas": [
-    ".BOBAdQuotebobq",
-    ".BOBAdQuoteHeadbobqh",
-    ".BOBAdQuoteNo-Indentbobq1",
-    ".BOBAdQuoteSourcebobqs",
-    ".Extract-BulletListextbl",
-    ".Extract-BusinessCardextbc",
-    ".Extract-Diaryextd",
-    ".Extract-Emailextem",
-    ".Extract-EmailHeadingemh",
-    ".Extract-Headlineexthl",
-    ".Extract-Inscriptionins",
-    ".Extract-Newspapernews",
-    ".Extract-Noteextn",
-    ".Extract-NoteHeadextnh",
-    ".Extract-NumListextnl",
-    ".Extract-ScheduleofEventssch",
-    ".Extract-SongLyricextsl",
-    ".Extract-Telegramtel",
-    ".Extract-Transcripttrans",
-    ".Extract-VerseorPoetryextv",
-    ".Extract-Websiteextws",
-    ".Extractext",
-    ".ExtractHeadexth",
-    ".ExtractSourceexts",
-    ".Extract-NoIndentext1",
-    ".LetterExtAddressladd",
-    ".LetterExtBodyTextltx",
-    ".LetterExtBodyTextNo-Indentltx1",
-    ".LetterExtClosinglcl",
-    ".LetterExtDatelineldl",
-    ".LetterExtGeneralextl",
-    ".LetterExtHeadnotehn",
-    ".LetterExtPostscriptlps",
-    ".LetterExtSalutationlsa",
-    ".LetterExtSignaturelsig"
+    ".Extract1Ext1",
+    ".Extract2Ext2"
   ],
   "epigraphparas": [
-    ".ChapEpigraph-non-versecepi",
-    ".ChapEpigraph-versecepiv",
-    ".ChapEpigraphSourceceps",
-    ".Epigraph-non-verseepi",
-    ".Epigraph-verseepiv",
-    ".EpigraphinText-non-versetepi",
-    ".EpigraphinText-Sourceteps",
-    ".EpigraphinText-versetepiv",
-    ".EpigraphSourceeps",
-    ".FMEpigraph-non-versefmepi",
-    ".FMEpigraph-versefmepiv",
-    ".FMEpigraphSourcefmeps",
-    ".PartEpigraph-non-versepepi",
-    ".PartEpigraph-versepepiv",
-    ".PartEpigraphSourcepeps"
+    ".Epigraph-Non-VerseEpi",
+    ".Epigraph-VerseEpiv",
+    ".Epigraph-SourceEpisrc"
   ],
-  "poetryparas": [
-    ".PoemDatelinevdl",
-    ".PoemDedicationvded",
-    ".PoemEpigraph-non-versevepi",
-    ".PoemEpigraph-versevepiv",
-    ".PoemEpigraphSourceveps",
-    ".PoemLevel-1Subheadvh1",
-    ".PoemLevel-2Subheadvh2",
-    ".PoemLevel-3Subheadvh3",
-    ".PoemLevel-4Subheadvh4",
-    ".PoemLevel-5Subheadvh5",
-    ".PoemNumericSubheadsvhn",
-    ".PoemSubtitlevst",
-    ".PoemTitlevt",
-    ".VerseRun-inTextvrtx",
-    ".VerseRun-inTextNo-Indentvrtx1",
-    ".VerseTextvtx"
+  "verseparas": [
+    ".Verse1Vrs1",
+    ".Verse1-indent1Vrs1-i1",
+    ".Verse1-indent2Vrs1-i2",
+    ".Verse1-indent3Vrs1-i3",
+    ".Verse2Vrs2",
+    ".Verse2-indent1Vrs2-i1",
+    ".Verse2-indent2Vrs2-i2",
+    ".Verse2-indent3Vrs2-i3"
   ],
-  "boxparas": [
-    ".BoxEpigraph-non-versebepi",
-    ".BoxEpigraph-versebepiv",
-    ".BoxEpigraphSourcebeps",
-    ".BoxExtract-Versebextv",
-    ".BoxExtractbext",
-    ".BoxFootnotebfn",
-    ".BoxHead-Level-1bh1",
-    ".BoxHead-Level-2bh2",
-    ".BoxHead-Level-3bh3",
-    ".BoxHead-Level-4bh4",
-    ".BoxHead-Level-5bh5",
-    ".BoxHeadbh",
-    ".BoxListBulletbbl",
-    ".BoxListNumbnl",
-    ".BoxListUnnumbul",
-    ".BoxSourceNotebsn",
-    ".BoxSubheadbsh",
-    ".BoxTextbtx",
-    ".BoxTextNo-Indentbtx1"
-  ],
-  "sidebarparas": [
-    ".SidebarEpigraph-non-versesbepi",
-    ".SidebarEpigraph-versesbepiv",
-    ".SidebarEpigraphSourcesbeps",
-    ".SidebarExtract-Versesbextv",
-    ".SidebarExtractsbext",
-    ".SidebarFootnotesbfn",
-    ".SidebarHead-Level-1sbh1",
-    ".SidebarHead-Level-2sbh2",
-    ".SidebarHead-Level-3sbh3",
-    ".SidebarHead-Level-4sbh4",
-    ".SidebarHead-Level-5sbh5",
-    ".SidebarHeadsbh",
-    ".SidebarListBulletsbbl",
-    ".SidebarListNumsbnl",
-    ".SidebarListUnnumsbul",
-    ".SidebarSourceNotesbsn",
-    ".SidebarSubheadsbsh",
-    ".SidebarTextsbtx",
-    ".SidebarTextNo-Indentsbtx1"
+  "containerparas": {
+    "extract": [
+      ".EXTRACT-AEXT-A",
+      ".EXTRACT-BEXT-B",
+      ".EXTRACT-CEXT-C",
+      ".EXTRACT-DEXT-D"
+    ],
+    "verse": [
+      ".VERSE-AVRS-A",
+      ".VERSE-BVRS-B"
+    ],
+    "box": [
+      ".BOX-ABOX-A",
+      ".BOX-BBOX-B"
+    ],
+    "letter": [
+      ".LETTER-ALTR-A",
+      ".LETTER-BLTR-B",
+      ".LETTER-CLTR-C",
+      ".LETTER-DLTR-D"
+    ],
+    "computer": [
+      ".COMPUTER-ACOM-A",
+      ".COMPUTER-BCOM-B"
+    ],
+    "sidebar": [
+      ".SIDEBAR-ASIDE-A",
+      ".SIDEBAR-BSIDE-B"
+    ],
+    "pullquote": [
+      ".PULL-QUOTEPQ"
+    ],
+    "image": [
+      ".IMAGEIMG"
+    ],
+    "table": [
+      ".TABLETBL"
+    ],
+    "recipe": [
+      ".RECIPEREC"
+    ]
+  },
+  "containerendparas": [
+    ".ENDEND"
   ],
   "illustrationparas": [
-    ".Captioncap",
-    ".IllustrationCreditsTextilctx",
-    ".IllustrationCreditsTextNo-Indentilctx1",
-    ".Illustrationholderill",
-    ".IllustrationSourceis"
+    ".Image-PlacementImg",
+    ".Credit-LineCrd",
+    ".CaptionCap"
   ],
   "imageholders": [
-    ".Illustrationholderill"
+    ".Image-PlacementImg"
   ],
   "captionparas": [
-    ".Captioncap"
+    ".CaptionCap"
   ],
   "illustrationsrcparas": [
-    ".IllustrationSourceis"
+    ".Credit-LineCrd"
   ],
-  "unorderedlistparas": [
-    ".AppendixListBulletapbl",
-    ".BoxListBulletbbl",
-    ".Extract-BulletListextbl",
-    ".ListBulletbl",
-    ".ListUnnumul",
-    ".SidebarListBulletsbbl"
+  "unorderedlistparaslevel1": [
+    ".Bullet-Level-1-ListBl1",
+    ".Bullet-Level-1-List-ParagraphBl1p",
+    ".Unnum-Level-1-ListUl1",
+    ".Unnum-Level-1-List-ParagraphUl1p"
   ],
-  "orderedlistparas": [
-    ".AppendixListNumapnl",
-    ".BoxListNumbnl",
-    ".Extract-NumListextnl",
-    ".ListAlphaal",
-    ".ListNumnl",
-    ".SidebarListNumsbnl"
+  "orderedlistparaslevel1": [
+    ".Num-Level-1-ListNl1",
+    ".Num-Level-1-List-ParagraphNl1p",
+    ".Alpha-Level-1-ListAl1",
+    ".Alpha-Level-1-List-ParagraphAl1p"
   ],
-  "unorderedsublistparas": [
-    ".ListBulletSubentrybsl"
+  "unorderedlistparaslevel2": [
+    ".Bullet-Level-2-ListBl2",
+    ".Bullet-Level-2-List-ParagraphBl2p",
+    ".Unnum-Level-2-ListUl2",
+    ".Unnum-Level-2-List-ParagraphUl2p"
   ],
-  "orderedsublistparas": [
-    ".ListAlphaSubentryasl",
-    ".ListNumSubentrynsl"
+  "orderedlistparaslevel2": [
+    ".Num-Level-2-ListNl2",
+    ".Num-Level-2-List-ParagraphNl2p",
+    ".Alpha-Level-2-ListAl2",
+    ".Alpha-Level-2-List-ParagraphAl2p"
+  ],
+  "unorderedlistparaslevel3": [
+    ".Bullet-Level-3-ListBl3",
+    ".Bullet-Level-3-List-ParagraphBl3p",
+    ".Unnum-Level-3-ListUl3",
+    ".Unnum-Level-3-List-ParagraphUl3p"
+  ],
+  "orderedlistparaslevel3": [
+    ".Num-Level-3-ListNl3",
+    ".Num-Level-3-List-ParagraphNl3p",
+    ".Alpha-Level-3-ListAl3",
+    ".Alpha-Level-3-List-ParagraphAl3p"
+  ],
+  "listparaparas": [
+    ".Bullet-Level-1-List-ParagraphBl1p",
+    ".Bullet-Level-2-List-ParagraphBl2p",
+    ".Bullet-Level-3-List-ParagraphBl3p",
+    ".Num-Level-1-List-ParagraphNl1p",
+    ".Num-Level-2-List-ParagraphNl2p",
+    ".Num-Level-3-List-ParagraphNl3p",
+    ".Unnum-Level-1-List-ParagraphUl1p",
+    ".Unnum-Level-2-List-ParagraphUl2p",
+    ".Unnum-Level-3-List-ParagraphUl3p",
+    ".Alpha-Level-1-List-ParagraphAl1p",
+    ".Alpha-Level-2-List-ParagraphAl2p",
+    ".Alpha-Level-3-List-ParagraphAl3p"
   ],
   "chaptertitleparas": [
-    ".ChapTitlect",
-    ".ChapTitleALTact"
+    ".TitleTtl"
   ],
   "chapternumberparas": [
-    ".ChapNumbercn"
+    ".NumberNum"
   ],
   "omitparas": [
-    ".SectionBreaksbr"
+    ".Section-BookBOOK",
+    ".ENDEND"
   ],
   "versatileblockparas": [
-    ".BookmakerProcessingInstructionbpi",
-    ".IllustrationCreditsTextilctx",
-    ".IllustrationCreditsTextNo-Indentilctx1",
-    ".Illustrationholderill",
-    ".IllustrationSourceis",
-    ".SpaceBreak-Internalint"
+    ".Image-PlacementImg",
+    ".SeparatorSep",
+    ".Design-NoteDn",
+    ".Bookmaker-Processing-InstructionBpi",
+    ".Ebook-Only-TextEonly"
   ],
   "toplevelheads": {
-    ".Section-Front-Salessfs": {
+    ".Section-Front-SalesSFS": {
       "type": "preface",
       "label": "Front Sales",
       "class": "frontsales"
     },
-    ".Section-Halftitlesht": {
+    ".Section-HalftitleSHT": {
       "type": "halftitlepage",
       "label": "Half Title Page"
     },
-    ".Section-Ad-Cardsac": {
+    ".Section-Ad-CardSAC": {
       "type": "preface",
       "label": "Ad Card",
       "class": "adcard"
     },
-    ".Section-Series-Pagessp": {
+    ".Section-Series-PageSSP": {
       "type": "preface",
       "label": "Series Page",
       "class": "seriespage"
     },
-    ".Section-Titlepagesti": {
+    ".Section-TitlepageSTI": {
       "type": "titlepage",
       "label": "Title Page"
     },
-    ".Section-Copyrightscr": {
+    ".Section-CopyrightSCR": {
       "type": "copyright-page",
       "label": "Copyright Page"
     },
-    ".Section-Dedicationsde": {
+    ".Section-Ebook-CopyrightSECR": {
+      "type": "copyright-page",
+      "label": "Copyright Page"
+    },
+    ".Section-DedicationSDE": {
       "type": "dedication",
       "label": "Dedication"
     },
-    ".Section-Epigraphsepi": {
+    ".Section-EpigraphSEP": {
       "type": "preface",
       "label": "Epigraph",
       "class": "epigraph"
     },
-    ".Section-Contentsstc": {
+    ".Section-ContentsSTC": {
       "type": "preface",
       "label": "Contents",
       "class": "texttoc"
     },
-    ".Section-Forewordsfw": {
+    ".Section-ForewordSFW": {
       "type": "foreword"
     },
-    ".Section-Prefacespf": {
+    ".Section-PrefaceSPF": {
       "type": "preface"
     },
-    ".Section-Intro-Frontmattersif": {
+    ".Section-Front-Matter-GeneralSFM": {
+      "type": "preface",
+      "label": "Front Matter General"
+    },
+    ".Section-IntroductionSIC": {
       "type": "introduction"
     },
-    ".Section-Intro-Chaptersic": {
-      "type": "chapter",
-      "label": "Introduction"
-    },
-    ".Section-Partspt": {
+    ".Section-PartSPT": {
       "type": "part"
     },
-    ".Section-Chapterscp": {
+    ".Section-ChapterSCP": {
       "type": "chapter"
     },
-    ".Section-Conclusionscl": {
+    ".Section-RecipeSREC": {
+      "type": "chapter",
+      "label": "Recipe",
+      "class": "recipe"
+    },
+    ".Section-InterludeSIN": {
+      "type": "chapter",
+      "label": "Interlude",
+      "class": "interlude"
+    },
+    ".Section-ConclusionSCL": {
       "type": "conclusion",
       "label": "Conclusion"
     },
-    ".Section-Afterwordsaw": {
+    ".Section-AfterwordSAW": {
       "type": "afterword"
     },
-    ".Section-Acknowledgmentssak": {
+    ".Section-AcknowledgmentsSAK": {
       "type": "acknowledgments"
     },
-    ".Section-Appendixsap": {
+    ".Section-AppendixSAP": {
       "type": "appendix"
     },
-    ".Section-Glossarysgl": {
+    ".Section-GlossarySGL": {
       "type": "glossary"
     },
-    ".Section-Excerpt-Chaptersec": {
+    ".Section-Excerpt-ChapterSEC": {
       "type": "appendix",
       "label": "Excerpt",
       "class": "excerptchapter"
     },
-    ".Section-Excerpt-Openerseo": {
+    ".Section-Excerpt-OpenerSEO": {
       "type": "appendix",
       "label": "Excerpt Introduction",
       "class": "excerptopener"
     },
-    ".Section-Bibliographysbi": {
+    ".Section-BibliographySBI": {
       "type": "bibliography"
     },
-    ".Section-Notessnt": {
+    ".Section-NotesSNT": {
       "type": "appendix",
       "label": "Notes",
       "class": "notes"
     },
-    ".Section-About-Authorsaa": {
+    ".Section-About-AuthorSAA": {
       "type": "appendix",
       "label": "About the Author",
       "class": "abouttheauthor"
     },
-    ".Section-Back-Adsba": {
+    ".Section-Back-AdSBA": {
       "type": "appendix",
       "label": "Ad",
       "class": "bobad"
     },
-    ".Section-Indexsin": {
+    ".Section-IndexSIN": {
       "type": "index"
     },
-    ".Section-Blank-Pagesbl": {
-      "type": "preface",
-      "class": "blankpage"
+    ".Section-Back-Matter-GeneralSBM": {
+      "type": "appendix",
+      "label": "Back Matter General"
     }
   },
   "footnotetextselector": [
