@@ -150,7 +150,9 @@
     ".SeparatorSep",
     ".Design-NoteDn",
     ".Bookmaker-Processing-InstructionBpi",
-    ".Ebook-Only-TextEonly"
+    ".Ebook-Only-TextEonly",
+    ".Credit-LineCrd",
+    ".CaptionCap"
   ],
   "toplevelheads": {
     ".Section-Front-SalesSFS": {
