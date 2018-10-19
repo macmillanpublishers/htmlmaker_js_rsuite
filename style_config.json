@@ -156,46 +156,56 @@
     ".Section-Front-SalesSFS": {
       "type": "preface",
       "label": "Front Sales",
+      "tocexclude": "True",
       "class": "frontsales"
     },
     ".Section-HalftitleSHT": {
       "type": "halftitlepage",
-      "label": "Half Title Page"
+      "label": "Half Title Page",
+      "tocexclude": "True"
     },
     ".Section-Ad-CardSAC": {
       "type": "preface",
       "label": "Ad Card",
+      "tocexclude": "True",
       "class": "adcard"
     },
     ".Section-Series-PageSSP": {
       "type": "preface",
       "label": "Series Page",
+      "tocexclude": "True",
       "class": "seriespage"
     },
     ".Section-TitlepageSTI": {
       "type": "titlepage",
-      "label": "Title Page"
+      "label": "Title Page",
+      "tocexclude": "True"
     },
     ".Section-CopyrightSCR": {
       "type": "copyright-page",
-      "label": "Copyright Page"
+      "label": "Copyright Page",
+      "tocexclude": "True"
     },
     ".Section-Ebook-CopyrightSECR": {
       "type": "copyright-page",
-      "label": "Copyright Page"
+      "label": "Copyright Page",
+      "tocexclude": "True"
     },
     ".Section-DedicationSDE": {
       "type": "dedication",
-      "label": "Dedication"
+      "label": "Dedication",
+      "tocexclude": "True"
     },
     ".Section-EpigraphSEP": {
       "type": "preface",
       "label": "Epigraph",
+      "tocexclude": "True",
       "class": "epigraph"
     },
     ".Section-ContentsSTC": {
       "type": "preface",
       "label": "Contents",
+      "tocexclude": "True",
       "class": "texttoc"
     },
     ".Section-ForewordSFW": {
@@ -220,6 +230,7 @@
     ".Section-RecipeSREC": {
       "type": "chapter",
       "label": "Recipe",
+      "tocexclude": "True",
       "class": "recipe"
     },
     ".Section-InterludeSIN": {
@@ -246,6 +257,7 @@
     ".Section-Excerpt-ChapterSEC": {
       "type": "appendix",
       "label": "Excerpt",
+      "tocexclude": "True",
       "class": "excerptchapter"
     },
     ".Section-Excerpt-OpenerSEO": {
@@ -269,6 +281,7 @@
     ".Section-Back-AdSBA": {
       "type": "appendix",
       "label": "Ad",
+      "tocexclude": "True",
       "class": "bobad"
     },
     ".Section-IndexSIN": {
