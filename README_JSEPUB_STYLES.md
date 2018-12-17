@@ -3,10 +3,12 @@
 ####title `{}`
 Defines what will be added to the html page's title tag.
 
-	"title": {
-		"doc-style": "TitlepageBookTitletit"
-	}
-
+```
+"title": {
+  "titlepage-style": "Section-TitlepageSTI",
+  "title-style": "TitleTtl"
+}
+```
 *	#####doc-style `text`
 	Defines the docx style id that the title will be retrieved from.
 
@@ -41,9 +43,9 @@ Text to be added to the `data-type` attribute of the html tag. Note that a data-
 
 ####attributes `[]`
 List of attribute strings to be added to the html tag
-	
+
 	attributes: ['some-attr="a value"']
-	
+
 would output
 
 	<tag some-attr="a value"/>
@@ -70,17 +72,15 @@ run a function from the options style functions file defined when the conversion
 ####behavior `{}`
 Which behavior the conversion should use to place the html tag in the document
 
-*	#####name `text` 
-	One of `aggregate`, `new-parent`, `new-sibling`, `new-child` 
+*	#####name `text`
+	One of `aggregate`, `new-parent`, `new-sibling`, `new-child`
 	*	`aggregate` - Aggregate this and the following docx paragraphs if they match this tag's doc-type definition. If the tag does not yet exist, it will be created. Note that a data-type is REQUIRED in order for the child paras to correctly be aggregated inside the parent.
 	*	`new-parent` - Create a new html tag based on the reference name, and add it to the working document before the this tag as a new parent.
-	*	`new-sibling` - Add this tag to the current working document as a sibling 
+	*	`new-sibling` - Add this tag to the current working document as a sibling
 	*	`new-child` - Add this tag to the current working document as a child and push it onto the working stack as a parent for the next docx paragraph
-	
+
 *	#####parent `text` `optional`
 	Reference name of tag definition that will be created as a `new-parent` behavior for this html tag
-	
-*	#####required-parent `[]` `optional`	
+
+*	#####required-parent `[]` `optional`
 	List of `data-type` or tag names that are a required parent of this html tag. If the current working html node does not match this list, the conversion recursively works back up the document tree to find the required parent. An error is thrown if parent is not found.
-	
-	 

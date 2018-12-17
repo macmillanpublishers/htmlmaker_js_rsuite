@@ -1,6 +1,7 @@
-# htmlmaker_js
+# htmlmaker_js_rsuite
 
-JavaScript replacement for Macmillan's .docx-to-HTML conversion.
+JavaScript replacement for Macmillan's .docx-to-HTML conversion, for documents styled with Macmillan-RSuite styles.
+This is a modified version of the [original htmlmaker_js repo](https://github.com/macmillanpublishers/htmlmaker_js).
 
 This process exists in two pieces. The first converts the .docx file to a simple HTML file of paragraphs. The second piece converts the HTML file to HTMLBook.
 
