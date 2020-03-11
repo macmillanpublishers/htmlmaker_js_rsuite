@@ -9,7 +9,9 @@
   ],
   "extractparas": [
     ".Extract1Ext1",
-    ".Extract2Ext2"
+    ".Extract2Ext2",
+    ".Extract3Ext3",
+    ".Extract4Ext4"
   ],
   "epigraphparas": [
     ".Epigraph-Non-VerseEpi",
@@ -147,12 +149,12 @@
   ],
   "versatileblockparas": [
     ".Image-PlacementImg",
+    ".Credit-LineCrd",
+    ".CaptionCap",
     ".SeparatorSep",
     ".Design-NoteDn",
     ".Bookmaker-Processing-InstructionBpi",
-    ".Ebook-Only-TextEonly",
-    ".Credit-LineCrd",
-    ".CaptionCap"
+    ".Ebook-Only-TextEonly"
   ],
   "toplevelheads": {
     ".Section-Front-SalesSFS": {
@@ -229,16 +231,20 @@
     ".Section-ChapterSCP": {
       "type": "chapter"
     },
-    ".Section-RecipeSREC": {
+    ".Section-Chapter2SCP2": {
       "type": "chapter",
-      "label": "Recipe",
-      "tocexclude": "True",
-      "class": "recipe"
+      "class": "chapter2"
     },
     ".Section-InterludeSIN": {
       "type": "chapter",
       "label": "Interlude",
       "class": "interlude"
+    },
+    ".Section-RecipeSREC": {
+      "type": "chapter",
+      "label": "Recipe",
+      "tocexclude": "True",
+      "class": "recipe"
     },
     ".Section-ConclusionSCL": {
       "type": "conclusion",
@@ -294,6 +300,9 @@
       "label": "Back Matter General"
     }
   },
+  "legacy": [
+    ".Section-InterludeSIN"
+  ],
   "footnotetextselector": [
     "div.footnote"
   ],
