@@ -24,10 +24,14 @@
     ".Verse1-indent1Vrs1-i1",
     ".Verse1-indent2Vrs1-i2",
     ".Verse1-indent3Vrs1-i3",
+    ".Verse1-indent4Vrs1-i4",
+    ".Verse1-indent5Vrs1-i5",
     ".Verse2Vrs2",
     ".Verse2-indent1Vrs2-i1",
     ".Verse2-indent2Vrs2-i2",
     ".Verse2-indent3Vrs2-i3",
+    ".Verse2-indent4Vrs2-i4",
+    ".Verse2-indent5Vrs2-i5",
     ".Verse-SourceVsrc"
   ],
   "containerparas": {
@@ -291,6 +295,13 @@
     ".Section-Back-Matter-GeneralSBM": {
       "type": "appendix",
       "label": "Back Matter General"
+    },
+    ".Section-Illustration-CreditsSIC": {
+      "type": "illustration-credits"
+    },
+    ".Section-PermissionsSPRM": {
+      "type": "permissions",
+      "tocexclude": "True"
     }
   },
   "legacy": [
