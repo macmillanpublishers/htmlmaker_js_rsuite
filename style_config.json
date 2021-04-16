@@ -297,11 +297,16 @@
       "label": "Back Matter General"
     },
     ".Section-Illustration-CreditsSIC": {
-      "type": "illustration-credits"
+      "type": "appendix",
+      "label": "Illustration Credits",
+      "tocexclude": "True",
+      "class": "illustrationcredits"
     },
     ".Section-PermissionsSPRM": {
-      "type": "permissions",
-      "tocexclude": "True"
+      "type": "appendix",
+      "label": "Permissions",
+      "tocexclude": "True",
+      "class": "permissions"
     }
   },
   "legacy": [
