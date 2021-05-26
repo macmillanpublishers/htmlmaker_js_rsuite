@@ -19,14 +19,20 @@
     ".Epigraph-SourceEpisrc"
   ],
   "verseparas": [
+    ".Verse-HeadVhead",
     ".Verse1Vrs1",
     ".Verse1-indent1Vrs1-i1",
     ".Verse1-indent2Vrs1-i2",
     ".Verse1-indent3Vrs1-i3",
+    ".Verse1-indent4Vrs1-i4",
+    ".Verse1-indent5Vrs1-i5",
     ".Verse2Vrs2",
     ".Verse2-indent1Vrs2-i1",
     ".Verse2-indent2Vrs2-i2",
-    ".Verse2-indent3Vrs2-i3"
+    ".Verse2-indent3Vrs2-i3",
+    ".Verse2-indent4Vrs2-i4",
+    ".Verse2-indent5Vrs2-i5",
+    ".Verse-SourceVsrc"
   ],
   "containerparas": {
     "extract": [
@@ -34,10 +40,6 @@
       ".EXTRACT-BEXT-B",
       ".EXTRACT-CEXT-C",
       ".EXTRACT-DEXT-D"
-    ],
-    "verse": [
-      ".VERSE-AVRS-A",
-      ".VERSE-BVRS-B"
     ],
     "box": [
       ".BOX-ABOX-A",
@@ -235,11 +237,6 @@
       "type": "chapter",
       "class": "chapter2"
     },
-    ".Section-InterludeSIN": {
-      "type": "chapter",
-      "label": "Interlude",
-      "class": "interlude"
-    },
     ".Section-RecipeSREC": {
       "type": "chapter",
       "label": "Recipe",
@@ -298,10 +295,21 @@
     ".Section-Back-Matter-GeneralSBM": {
       "type": "appendix",
       "label": "Back Matter General"
+    },
+    ".Section-Illustration-CreditsSIC": {
+      "type": "appendix",
+      "label": "Illustration Credits",
+      "tocexclude": "True",
+      "class": "illustrationcredits"
+    },
+    ".Section-PermissionsSPRM": {
+      "type": "appendix",
+      "label": "Permissions",
+      "tocexclude": "True",
+      "class": "permissions"
     }
   },
   "legacy": [
-    ".Section-InterludeSIN"
   ],
   "footnotetextselector": [
     "div.footnote"
