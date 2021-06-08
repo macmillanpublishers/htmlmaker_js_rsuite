@@ -8,6 +8,7 @@
     ".Main-HeadMHead"
   ],
   "extractparas": [
+    ".Extract-HeadExthead",
     ".Extract1Ext1",
     ".Extract2Ext2",
     ".Extract3Ext3",
@@ -21,12 +22,14 @@
   "verseparas": [
     ".Verse-HeadVhead",
     ".Verse1Vrs1",
+    ".Verse1-DroplineV1drop",
     ".Verse1-indent1Vrs1-i1",
     ".Verse1-indent2Vrs1-i2",
     ".Verse1-indent3Vrs1-i3",
     ".Verse1-indent4Vrs1-i4",
     ".Verse1-indent5Vrs1-i5",
     ".Verse2Vrs2",
+    ".Verse2-DroplineV2drop",
     ".Verse2-indent1Vrs2-i1",
     ".Verse2-indent2Vrs2-i2",
     ".Verse2-indent3Vrs2-i3",
