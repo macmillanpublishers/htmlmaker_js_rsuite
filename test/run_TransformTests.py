@@ -74,11 +74,9 @@ def transformFilesInDir(transform_selection, solo_file=None):
                     # run xform_function
                     transforms_dict[transform_selection]['xform_function'](filepath, outputdir)
         return outputdir, transforms_dict[transform_selection]['output_compare_dir']
-    # except Exception, e:
-    except Exception as e:# p3
+    except Exception as e:
         errstring = 'Error during "{}", exiting'.format(inspect.stack()[0][3])
-        # print errstring, e.message, e.args
-        print(errstring, e.message, e.args)# p3
+        print(errstring, e.message, e.args)
         sys.exit(1)
 
 def addValidFiles(new_validHtmlFiles, valid_output_dir, tmp_output_dir):
@@ -87,8 +85,7 @@ def addValidFiles(new_validHtmlFiles, valid_output_dir, tmp_output_dir):
             src_filepath = os.path.join(tmp_output_dir, newfile)
             dest_filepath = os.path.join(valid_output_dir, newfile)
             shutil.copyfile(src_filepath, dest_filepath)
-        # print "\n(( Added missing valid files for the following testfile(s), they will be available for the next test: ))\n  {}\n".format(new_validHtmlFiles)
-        print("\n(( Added missing valid files for the following testfile(s), they will be available for the next test: ))\n  {}\n".format(new_validHtmlFiles))#p3
+        print("\n(( Added missing valid files for the following testfile(s), they will be available for the next test: ))\n  {}\n".format(new_validHtmlFiles))
 
 if __name__ == '__main__':
     # accept parameters for which transform you want to test, or all transforms (no param defaults to 'all')
@@ -109,5 +106,3 @@ if __name__ == '__main__':
     new_validHtmlFiles = hdiff.runHtmlDiff(valid_output_dir, tmp_output_dir, diff_outputdir)
     # add new tmp files as valid files where valid files are not present
     addValidFiles(new_validHtmlFiles, valid_output_dir, tmp_output_dir)
-
-# ignore dsstore, test one file
