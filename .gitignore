@@ -1,0 +1,6 @@
+.DS_Store
+.DS_Store?
+*.pyc
+test/files_for_test/tmp/*
+*_fixed.html
+*_pretty.html
