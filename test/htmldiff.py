@@ -14,7 +14,7 @@ import time
 import inspect
 
 # supported file extensions
-prettify_extensions = ['.xml', '.xhtml', '.html', '.ncx', 'opf']
+prettify_extensions = ['.xml', '.xhtml', '.html', '.ncx', '.opf']
 valid_extensions = ['.css', '.txt'] + prettify_extensions
 
 # labels for pretty and fixed files:
@@ -106,11 +106,14 @@ def cleanFile(xml_fname, src_label):
 
     with open(src_fname, "rt") as fin, open(target_fname,'w') as fout:
         for line in fin:
+            # to ignore unique id's, we strip them
             newline = re.sub('id="\S+?"', 'id=""', line)
+            # newline = re.sub("id=\'\S+?\'", 'id=""', newline) # << optional, for id's with single quotes, as in opf
             newline_b = re.sub('href="#id\S+?"', 'href="#id"', newline)
+            # <br> tags from init. htmlmaker aren't valid xml
+            # htmlmakertohtmlmaker_js mistakenly adds a closing </br> tag in one test doc. Opening a tix for that as well
             newline_c = newline_b.replace('<br>', '<br/>').replace('</br>', '')
             fout.write(newline_c)
-
     return target_fname
 
 def diffFiles(file_a, file_b, outputdir):
