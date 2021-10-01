@@ -110,8 +110,8 @@ def cleanFile(xml_fname, src_label):
             newline = re.sub('id="\S+?"', 'id=""', line)
             # newline = re.sub("id=\'\S+?\'", 'id=""', newline) # << optional, for id's with single quotes, as in opf
             newline_b = re.sub('href="#id\S+?"', 'href="#id"', newline)
-            # <br> tags from init. htmlmaker aren't valid xml
-            # htmlmakertohtmlmaker_js mistakenly adds a closing </br> tag in one test doc. Opening a tix for that as well
+            # <br> tags from init. htmlmaker aren't valid xml, and
+            #   htmlmakertohtmlmaker_js mistakenly adds a closing </br> tag in one test doc. Opening a tix for that as well
             newline_c = newline_b.replace('<br>', '<br/>').replace('</br>', '')
             fout.write(newline_c)
     return target_fname
@@ -183,30 +183,32 @@ def runHtmlDiff(file_a, file_b, outputdir):
         else:
             print("Difference(s) found:\n\n{}".format(diff_val))
     # diff all files in two dirs
-    if os.path.isdir(file_a) and os.path.isdir(file_b) and outputdir:
-        a_only_files, b_only_files, unsupported_ext_files, valid_file_pairs = checkdirs(file_a, file_b)
-        print("\n \n PREPARING to diff files in dirs!...\n")
-        if a_only_files:
-            print("THESE files exist only in the first dir!! ({}):\n\n  {}\n\n".format(file_a, a_only_files))
-        if b_only_files:
-            print("THESE files exist only in the second dir!! ({}):\n\n  {}\n\n".format(file_b, b_only_files))
-        if unsupported_ext_files:
-            print("THESE file pairs have unsupported file extensions so we cannot diff them: \n\n   {}\n\n".format(unsupported_ext_files))
-        if valid_file_pairs:
-            print("THESE file pairs will be diffed, now! : \n\n   {}\n\n".format(valid_file_pairs))
-            diff_found = batchDiffInDirs(valid_file_pairs, file_a, file_b, outputdir)
-            if diff_found:
-                print("  * * * *  DIFFERENCES FOUND  * * * *")
-                print("Diffs for the following file-pairs can be found in output dir: '{}': \n\n  {}\n\n".format(outputdir, '\n  '.join(diff_found)))
-            else:
-                print("  * * * *  No differences detected!  * * * *\n\n")
-                #  rm extraneous outputdir
-                rmExistingFSObject(outputdir)
-        elif not valid_file_pairs:
-            print("  * * * *  No files to diff here!  * * * *\n\n")
-
+    elif os.path.isdir(file_a) and os.path.isdir(file_b):
+        if outputdir is not None:
+            a_only_files, b_only_files, unsupported_ext_files, valid_file_pairs = checkdirs(file_a, file_b)
+            print("\n \n PREPARING to diff files in dirs!...\n")
+            if a_only_files:
+                print("THESE files exist only in the first dir!! ({}):\n\n  {}\n\n".format(file_a, a_only_files))
+            if b_only_files:
+                print("THESE files exist only in the second dir!! ({}):\n\n  {}\n\n".format(file_b, b_only_files))
+            if unsupported_ext_files:
+                print("THESE file pairs have unsupported file extensions so we cannot diff them: \n\n   {}\n\n".format(unsupported_ext_files))
+            if valid_file_pairs:
+                print("THESE file pairs will be diffed, now! : \n\n   {}\n\n".format(valid_file_pairs))
+                diff_found = batchDiffInDirs(valid_file_pairs, file_a, file_b, outputdir)
+                if diff_found:
+                    print("  * * * *  DIFFERENCES FOUND  * * * *")
+                    print("Diffs for the following file-pairs can be found in output dir: '{}': \n\n  {}\n\n".format(outputdir, '\n  '.join(diff_found)))
+                else:
+                    print("  * * * *  No differences detected!  * * * *\n\n")
+                    #  rm extraneous outputdir
+                    rmExistingFSObject(outputdir)
+            elif not valid_file_pairs:
+                print("  * * * *  No files to diff here!  * * * *\n\n")
+        elif outputdir is None:
+            print("\n  You forgot to include an output dir as a 3rd parameter (reqrd for diffing dirs)\n")
     else:
-        print("Your first two params need to either both be dirs or both be files")
+        print("\n  Your first two params need to either both be dirs or both be files\n")
     return b_only_files
 
 if __name__ == '__main__':
