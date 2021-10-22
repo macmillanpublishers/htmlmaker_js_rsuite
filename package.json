@@ -1,12 +1,12 @@
 {
 	"name": "htmlmaker",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Convert a .docx file to HTMLBook compliant html",
 	"main": "./lib/index.js",
 	"dependencies": {
-		"mammoth": "~0.3.3",
-		"argparse": "~1.0.6",
-		"cheerio": "~0.20",
+		"argparse": "^1.0.10",
+		"cheerio": "~1.0.0-rc.10",
+		"mammoth": "~1.4.19",
 		"mkdirp": ""
 	},
 	"bin": {
