@@ -40,7 +40,7 @@ def check_file_pair_exist(dir_x_files, dir_y_files):
     file_pairs = []
     for file_x in dir_x_files:
         if ("{}.".format(pretty_label) not in file_x and "{}.".format(fixed_label) not in file_x
-            and file_x != '.DS_Store'):
+            and not file_x.startswith('.')): # ignore .ds_store and .gitignore
             if file_x in dir_y_files:
                 file_pairs.append(file_x)
             else:
