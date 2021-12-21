@@ -5,6 +5,9 @@ The tests here are intended to check output against validated output for these 3
 
 These scripts were tested in python 3.7.2 and 2.7.x
 
+* NOTE *
+Test files and validated output are not checked in, please put your own .docx files to be tested into /test/files_for_test/test_docx_files/
+
 
 
 * * * * *  TEST RUNNING - Basics  * * * * *
