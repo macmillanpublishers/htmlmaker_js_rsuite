@@ -1,0 +1,8 @@
+.DS_Store
+.DS_Store?
+*.pyc
+node_modules
+
+## \/ These are if we start checking in tests/testfiles' validated output later (on an encrypted basis)
+*_fixed.html
+*_pretty.html
