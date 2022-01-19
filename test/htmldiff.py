@@ -132,6 +132,9 @@ def diffFiles(file_a, file_b, outputdir):
         rmExistingFSObject(outfile)
 
         f = open(outfile,'a')
+        f.write('\n--------- < = VALIDATED file | NEW file = > ---------\n\n')
+        f.close()
+        f = open(outfile,'a')
         diff_val = subprocess.call(cmd_list, stdout=f)
         f.close()
 
